@@ -60,6 +60,7 @@ The application is deployed on AWS using Amazon EC2 for the application server a
 
 ## 🏗️ Architecture
 
+![CampusGenie Architecture](campusgenie-architecture.png)
 ```text
                     Users
                       │
