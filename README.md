@@ -61,21 +61,3 @@ The application is deployed on AWS using Amazon EC2 for the application server a
 ## 🏗️ Architecture
 
 ![CampusGenie Architecture](campusgenie-architecture.png)
-```text
-                    Users
-                      │
-                      ▼
-             Elastic IP / Public IP
-                13.202.85.75
-                      │
-                      ▼
-                 Nginx :80
-                      │
-          ┌───────────┴───────────┐
-          │                       │
-          ▼                       ▼
-   React Frontend          Node.js + Express
-                                  │
-                                  │ :5000
-                                  ▼
-                         Amazon RDS MySQL
